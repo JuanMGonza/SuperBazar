@@ -10,8 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
-	<header class="container-fluid">
-		<div class="container header">
+	<header class="container-fluid cabecera">
+		<div class="container">
 			<div class="row">
 				<h1 class="col-lg-7 col-sm-12 mt-2">Super Bazar</h1>
 				<nav class="navbar navbar-expand-lg navbar-dark col-lg-5 col-sm-12">
@@ -24,13 +24,13 @@
        					 <a href="#">Inicio</a>
      					 </li>
      					 <li class="nav-item m-lg-1 m-sm-2">
-     					   <a href="#quienes">Quienes Somos</a>
+     					   <a href="#quienes">Nosotros</a>
      					 </li>
      					 <li class="nav-item m-lg-1 m-sm-2">
      					   <a href="#ubicacion">Ubicación</a>
      					 </li>
      					  <li class="nav-item m-lg-1 m-sm-2">
-     					   <a href="#">Contacto</a>
+     					   <a href="#contacto">Contacto</a>
      					 </li>
    					 </ul>
  					 </div>
@@ -46,51 +46,46 @@
 		</div>
 	</section>
 	<section class="container-fluid" id="quienes">
-		<div class="container ">
-			<h2 class="text-center mb-4">Quienes Somos</h2>
-			<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="container p-4">
+			<div class="row">
+				<div class="col-lg-7 col-md-6 col-sm-12"><p class="mt-lg-5 nosotros">Somos una negocio familiar que cuenta con más de 30 años en el rubro. Contamos con una amplia variedad de productos para el hogar, negocios, regaleria y a fines. Ofrecemos asesoramiento personalizado para cada uno de nuestros clientes, quienes nos eligen día a día.</p></div>
+				<div class="col-lg-5 col-md-6 col-sm-12"><img src="img/prueba.jpg" class="img-fluid"></div>
+			</div>
+			
 		</div>
 	</section>
 	<section class="container-fluid" id="ofrecemos">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg col-md-12 col-sm-12">
-					<div class="text-center mb-3 mt-sm-3">
+					<div class="text-center mb-4 mt-sm-3">
 						<i class="fas fa-blender iconos"></i>
 					</div>
-					<p class="text-justify">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+					<p class="text-justify txt-ofrecemos">
+						En nuestro local, ofrecemos productos nacionales, como la linea de Acero Gamuza o Porcelana Tsuji, y artículos importados.
 					</p>
 				</div>
 				<div class="col-lg col-md-6 col-sm-12">
-					<div class="text-center mb-3 mt-sm-3">
+					<div class="text-center mb-4 mt-sm-3">
 						<i class="fas fa-gifts iconos"></i>
 					</div>
-					<p class="text-justify">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+					<p class="text-justify txt-ofrecemos">
+						Encontraras el regalo ideal que buscas para aniversarios, casamientos, cumpleaños, empresariales o para equipar tu hogar.
 					</p>
 				</div>
 				<div class="col-lg col-md-6 col-sm-12">
-					<div class="text-center mb-3 mt-sm-3">
+					<div class="text-center mb-4 mt-sm-3">
 						<i class="fas fa-credit-card iconos"></i>
 					</div>
-					<p class="text-justify">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+					<p class="text-justify txt-ofrecemos">
+						Nuestros medios de pagos son en efectivo, tarjeta de crédito y débito. Recientemente, agregamos el sistema de Mercado Pago.
 					</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="container-fluid" id="ubicacion">
-		<div class="container">
+		<div class="container p-3">
 			<h2 class="text-center mb-4">Nos encontramos en...</h2>
 			<div class="mapa">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6569.603285664533!2d-58.49809588783569!3d-34.5838852767516!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x628e692ff5d48d1a!2sSuper%20Bazar!5e0!3m2!1ses!2sar!4v1570313485114!5m2!1ses!2sar" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>	
@@ -100,6 +95,49 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="container-fluid" id="contacto">
+		<div class="container p-3">
+			<h2 class="text-center mb-4">Contacto</h2>
+			<form action="mailto:mail@mail.com" method="" id="formContact" class="form">
+				<div class="form-group mb-4">
+			  		<input type="name" name="nombre" class="form-control" id="nombre" placeholder="Nombre y Apellido" required>
+ 				</div>
+ 				<div class="form-group mb-4">
+  				  	<input type="email" name="mail" class="form-control" id="mail" placeholder="email@ejemplo.com" required>
+ 				</div>
+ 				<div class="form-group mb-4">
+ 				   	<textarea class="form-control txt-form" id="mensaje" rows="3" placeholder="Escribe tu mensaje aqui..." required></textarea>
+ 				</div>
+ 				<div class="form-group">
+ 					<input type="submit" class="btn-verde" name="enviar" value="Enviar">
+ 				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer class="container-fluid footer p-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-3 col-sm-12">
+					<h3 class="mt-4">Super Bazar</h3>
+				</div>
+				<div class="col-lg-4 col-md-5 col-sm-6 horarios">
+					<span class="font-weight-bold">Horarios de Atención:</span>
+					<p class="m-0">Lunes a Viernes: 9:30 a 13 - 17 a 20</p>
+					<p class="m-0">Sabados: 10 a 14 - 17:30 a 20</p>
+					<p class="m-0">Domingos: Cerrado</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 horarios">
+					<div class="mt-md-3">
+						<span><b>Dirección:</b> Av. Mosconi 2471 - Villa Pueyrredón, CABA.</span>
+						<p class="mt-2"><b>Tel:</b> 011-45742757</p>
+					</div>
+					
+				</div>	
+			</div>
+		</div>
+	</footer>
 
 
 

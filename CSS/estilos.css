@@ -17,15 +17,15 @@ h1{
 	font-family: 'Aladin', sans-serif;
 }
 
-header{
-	background: #388E3C;
+h3{
+	font-family: 'Aladin';	
 }
 
-.header{
+.cabecera{
+	background: #388E3C;
 	padding: 1%;
 	color: white;
 }
-
 
 nav{
 	display: inline;
@@ -63,17 +63,20 @@ a:hover{
 	position: relative;
 }
 
-#entrada{
-	margin: auto;
+.nosotros{
+	font-size: 1.2em;
+	text-align: justify;
 }
 
-#entrada h2{
+#entrada{
+	margin: auto;
 	color: white;
 }
 
 .text-entrada{
 	text-align: center;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	opacity: 1;
 }
 
 
@@ -83,10 +86,14 @@ a:hover{
 	padding: 3%;
 }
 
-#ofrecemos{
+#ofrecemos, #contacto{
 	background: #388E3C;
 	padding: 30px;
 	color: white;
+}
+
+.txt-ofrecemos{
+	font-size: 1.1em;
 }
 
 .iconos{
@@ -97,4 +104,36 @@ a:hover{
 	width: 80%;
 	margin: 0 auto;	
 	display: block;
+}
+
+.form{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.txt-form{
+	resize: none;
+	outline: none;
+}
+
+.btn-verde{
+	background: #388E3C;
+	color:white;
+	border:1px solid white;
+	border-radius: 5px;
+	padding:0.5% 1.5%;
+}
+
+.btn-verde:hover{
+	background: white;
+	color: #388E3C;
+}
+
+.footer{
+	background: #1B5E20;
+	color: white;
+}
+
+.horarios{
+	font-size: 0.9em;
 }

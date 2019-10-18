@@ -50,6 +50,9 @@ a:hover{
 	color: #388E3C;
 	text-decoration: none;
 }
+.img-logo{
+	width: 10vh;
+}
 
 .principal{
 	height: 60vh;

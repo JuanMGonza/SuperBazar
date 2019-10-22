@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Aladin&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://juanmgonza.github.io/SuperBazar/CSS/estilos.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="shorcout icon" href="favicon.ico">
 </head>
 <body>
@@ -15,7 +16,7 @@
 		<div class="container">
 			<div class="row">
 				<div  class="col-lg-7 col-sm-12 mt-2 logo">
-					<h1><img src="img/logo.png" class="img-logo mr-3">Super Bazar</h1>
+					<h1><a href="index.html" class="aLogo"><img src="img/logo.png" class="img-logo mr-3">Super Bazar</a></h1>
 				</div>
 				<nav class="navbar navbar-expand-lg navbar-dark col-lg-5 col-sm-12">
   					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,16 +25,16 @@
   					<div class="collapse navbar-collapse" id="navbarNav">
     					<ul class="navbar-nav">
      					 <li class="nav-item m-lg-1 m-sm-2">
-       					 <a href="#">Inicio</a>
+       					 <a href="#" class="navItem">Inicio</a>
      					 </li>
      					 <li class="nav-item m-lg-1 m-sm-2">
-     					   <a href="#quienes">Nosotros</a>
+     					   <a href="#quienes" class="navItem">Nosotros</a>
      					 </li>
      					 <li class="nav-item m-lg-1 m-sm-2">
-     					   <a href="#ubicacion">Ubicación</a>
+     					   <a href="#ubicacion" class="navItem">Ubicación</a>
      					 </li>
      					  <li class="nav-item m-lg-1 m-sm-2">
-     					   <a href="#contacto">Contacto</a>
+     					   <a href="#contacto" class="navItem">Contacto</a>
      					 </li>
    					 </ul>
  					 </div>
@@ -44,15 +45,15 @@
 	<section class="container-fluid principal">
 		<div class="container">
 			<div id="entrada">
-				<h2 class="text-entrada">Más de 30 años en el centro de Villa Pueyrredón</h2>
+				<h2 class="text-entrada" data-aos="fade-up" data-aos-duration="1000">Más de 30 años en el centro de Villa Pueyrredón</h2>
 			</div>
 		</div>
 	</section>
 	<section class="container-fluid" id="quienes">
 		<div class="container p-4">
 			<div class="row">
-				<div class="col-lg-7 col-md-6 col-sm-12"><p class="mt-lg-5 nosotros">Somos una negocio familiar que cuenta con más de 30 años en el rubro. Contamos con una amplia variedad de productos para el hogar, negocios, regaleria y a fines. Ofrecemos asesoramiento personalizado para cada uno de nuestros clientes, quienes nos eligen día a día.</p></div>
-				<div class="col-lg-5 col-md-6 col-sm-12"><img src="img/prueba.jpg" class="img-fluid"></div>
+				<div class="col-lg-8 col-md-6 col-sm-12" data-aos="fade-right" data-aos-duration="1000"><p class="mt-lg-5 nosotros">Somos una negocio familiar que cuenta con más de 30 años en el rubro. Contamos con una amplia variedad de productos para el hogar, negocios, regaleria y a fines. Ofrecemos asesoramiento personalizado para cada uno de nuestros clientes, quienes nos eligen día a día.</p></div>
+				<div class="col-lg-4 col-md-6 col-sm-12"><img src="img/frentelocal.png" class="img-fluid"></div>
 			</div>
 			
 		</div>
@@ -60,7 +61,7 @@
 	<section class="container-fluid" id="ofrecemos">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg col-md-12 col-sm-12">
+				<div class="col-lg col-md-12 col-sm-12"  data-aos="fade-up" data-aos-duration="1000">
 					<div class="text-center mb-4 mt-sm-3">
 						<i class="fas fa-blender iconos"></i>
 					</div>
@@ -68,7 +69,7 @@
 						En nuestro local, ofrecemos productos nacionales, como la linea de Acero Gamuza o Porcelana Tsuji, y artículos importados.
 					</p>
 				</div>
-				<div class="col-lg col-md-6 col-sm-12">
+				<div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
 					<div class="text-center mb-4 mt-sm-3">
 						<i class="fas fa-gifts iconos"></i>
 					</div>
@@ -76,7 +77,7 @@
 						Encontraras el regalo ideal que buscas para aniversarios, casamientos, cumpleaños, empresariales o para equipar tu hogar.
 					</p>
 				</div>
-				<div class="col-lg col-md-6 col-sm-12">
+				<div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
 					<div class="text-center mb-4 mt-sm-3">
 						<i class="fas fa-credit-card iconos"></i>
 					</div>
@@ -147,5 +148,9 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  		AOS.init();
+	</script>
 </body>
 </html>

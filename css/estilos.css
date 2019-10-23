@@ -65,11 +65,11 @@ li{
 
 .principal{
 	height: 70vh;
-	background-image: url(../img/prueba2.jpg);
+	background-image: url(../img/mostrador2.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	opacity: 0.8;
+	opacity: 0.8;	
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -88,7 +88,8 @@ li{
 .text-entrada{
 	text-align: center;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-	opacity: 1;
+	color: #388E3C;
+	opacity: 1 !important;
 }
 
 #quienes, #ubicacion{
@@ -125,6 +126,7 @@ li{
 .txt-form{
 	resize: none;
 	outline: none;
+	height: 20vh;
 }
 
 .btn-verde{
@@ -132,7 +134,7 @@ li{
 	color:white;
 	border:1px solid white;
 	border-radius: 5px;
-	padding:0.5% 1.5%;
+	padding:5px 15px;
 }
 
 .btn-verde:hover{
@@ -147,4 +149,28 @@ li{
 
 .horarios{
 	font-size: 0.9em;
+}
+
+.formstyle{
+	background-color: transparent;
+	width: 100%;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid white;
+	padding: 5px;
+	color: white;
+	resize: none;
+	outline: none;
+}
+
+.formstyle:focus{
+	background-color: transparent;
+	border-bottom: 2px solid white;
+	padding: 5px;
+	color: white;
+}
+
+::placeholder{
+	color: white;
 }

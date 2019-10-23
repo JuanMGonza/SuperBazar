@@ -65,11 +65,11 @@ li{
 
 .principal{
 	height: 70vh;
-	background-image: url(../img/mostrador2.jpeg);
+	background: url(../img/mostrador3.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	opacity: 0.8;	
+	filter: opacity(0.7);	
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -83,13 +83,41 @@ li{
 #entrada{
 	margin: auto;
 	color: white;
+	width: 70%;
 }
 
 .text-entrada{
 	text-align: center;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-	color: #388E3C;
-	opacity: 1 !important;
+	color: rgba(255,255,255,1);
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+	font-weight: bolder;
+}
+
+@media (min-width: 576px) {
+	.text-entrada{
+		font-size: 2em;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.text-entrada{
+		font-size: 2.5em;
+	}
+  }
+
+@media (min-width: 992px) { 
+	.text-entrada{
+		font-size: 3em;
+	}
+}
+
+@media (min-width: 1200px) { 
+	.text-entrada{
+		font-size: 4em;
+	}
 }
 
 #quienes, #ubicacion{
@@ -102,6 +130,11 @@ li{
 	background: #388E3C;
 	padding: 30px;
 	color: white;
+}
+
+.title{
+	font-family: 'Lobster', cursive;
+	font-size: 2.5em;
 }
 
 .txt-ofrecemos{
@@ -149,6 +182,10 @@ li{
 
 .horarios{
 	font-size: 0.9em;
+}
+
+.title-horario{
+	font-family: 'Lobster', cursive;
 }
 
 .formstyle{
